@@ -4,9 +4,9 @@ import * as motion from "framer-motion/client"
 import PageTransition from '@/components/page-transition'
 
 const apartments = [
-    { id: 1, name: 'The Meridian', size: '2 Bedroom', price: '£500,000', image: '/images/meridian.jpg' },
-    { id: 2, name: 'The Horizon', size: '3 Bedroom', price: '£750,000', image: '/images/horizon.jpg' },
-    { id: 3, name: 'The Skyline', size: 'Penthouse', price: '£1,200,000', image: '/images/skyline.jpg' },
+    { id: 1, name: 'The Meridian', size: '2 Bedroom', price: '£500,000', image: '/images/meridian.webp' },
+    { id: 2, name: 'The Horizon', size: '3 Bedroom', price: '£750,000', image: '/images/horizon.webp' },
+    { id: 3, name: 'The Skyline', size: 'Penthouse', price: '£1,200,000', image: '/images/skyline.webp' },
 ]
 
 const fadeInUp = {
@@ -20,7 +20,7 @@ export default function Apartments() {
             <div className="min-h-screen bg-black text-white">
                 <div className="relative h-[50vh]">
                     <Image
-                        src="/images/apartments-hero.jpg"
+                        src="/images/apartments-hero.webp"
                         alt="Luxury Apartments"
                         layout="fill"
                         objectFit="cover"

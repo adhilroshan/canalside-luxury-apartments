@@ -13,7 +13,7 @@ export default function About() {
             <div className="min-h-screen bg-black text-white">
                 <div className="relative h-[50vh]">
                     <Image
-                        src="/images/canalside-exterior.jpg"
+                        src="/images/canalside-exterior.webp"
                         alt="Canalside Exterior"
                         layout="fill"
                         objectFit="cover"
@@ -54,7 +54,7 @@ export default function About() {
                                 transition={{ delay: 0.4 }}
                             >
                                 <Image
-                                    src="/images/canalside-interior.jpg"
+                                    src="/images/canalside-interior.webp"
                                     alt="Canalside Interior"
                                     layout="fill"
                                     objectFit="cover"

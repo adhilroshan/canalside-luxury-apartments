@@ -5,9 +5,9 @@ import { motion, AnimatePresence } from 'framer-motion'
 import Link from 'next/link'
 
 const images = [
-    '/images/apartment1.jpg',
-    '/images/apartment2.jpg',
-    '/images/apartment3.jpg',
+    '/images/apartment1.webp',
+    '/images/apartment2.webp',
+    '/images/apartment3.webp',
 ]
 const fadeInUp = {
     initial: { opacity: 0, y: 60 },

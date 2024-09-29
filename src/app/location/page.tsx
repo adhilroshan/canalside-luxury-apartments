@@ -13,7 +13,7 @@ export default function Location() {
             <div className="min-h-screen bg-black text-white">
                 <div className="relative h-[50vh]">
                     <Image
-                        src="/images/manchester-skyline.jpg"
+                        src="/images/manchester-skyline.webp"
                         alt="Manchester Skyline"
                         layout="fill"
                         objectFit="cover"
@@ -54,7 +54,7 @@ export default function Location() {
                                 transition={{ delay: 0.4 }}
                             >
                                 <Image
-                                    src="/images/canalside-map.jpg"
+                                    src="/images/canalside-map.webp"
                                     alt="Canalside Location Map"
                                     layout="fill"
                                     objectFit="cover"
