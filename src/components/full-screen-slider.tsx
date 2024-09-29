@@ -36,6 +36,7 @@ export default function FullscreenSlider() {
                     className="absolute inset-0"
                 >
                     <Image
+                        loading="eager"
                         src={images[currentImage]}
                         alt={`Apartment ${currentImage + 1}`}
                         layout="fill"

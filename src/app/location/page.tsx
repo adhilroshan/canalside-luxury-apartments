@@ -15,6 +15,8 @@ export default function Location() {
                     <Image
                         src="/images/manchester-skyline.webp"
                         alt="Manchester Skyline"
+
+                        loading="eager"
                         layout="fill"
                         objectFit="cover"
                     />
@@ -56,6 +58,8 @@ export default function Location() {
                                 <Image
                                     src="/images/canalside-map.webp"
                                     alt="Canalside Location Map"
+
+                                    loading="eager"
                                     layout="fill"
                                     objectFit="cover"
                                 />

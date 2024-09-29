@@ -22,6 +22,8 @@ export default function Apartments() {
                     <Image
                         src="/images/apartments-hero.webp"
                         alt="Luxury Apartments"
+
+                        loading="eager"
                         layout="fill"
                         objectFit="cover"
                     />
@@ -57,6 +59,8 @@ export default function Apartments() {
                                         <Image
                                             src={apartment.image}
                                             alt={apartment.name}
+
+                                            loading="eager"
                                             layout="fill"
                                             objectFit="cover"
                                             className="transition-transform duration-300 group-hover:scale-110"

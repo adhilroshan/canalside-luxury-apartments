@@ -16,6 +16,7 @@ export default function About() {
                         src="/images/canalside-exterior.webp"
                         alt="Canalside Exterior"
                         layout="fill"
+                        loading="eager"
                         objectFit="cover"
                     />
                     <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -57,6 +58,8 @@ export default function About() {
                                     src="/images/canalside-interior.webp"
                                     alt="Canalside Interior"
                                     layout="fill"
+
+                                    loading="eager"
                                     objectFit="cover"
                                 />
                             </motion.div>
